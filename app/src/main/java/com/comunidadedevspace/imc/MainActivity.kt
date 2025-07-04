@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             val peso = edtPeso.text
             val altura = edtAltura.text
             println("Diego acao do botao " + altura)
+
         }
 
 
