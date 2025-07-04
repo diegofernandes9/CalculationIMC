@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // comentario
 
         val edtPeso = findViewById<TextInputEditText>(R.id.edt_peso)
         val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
