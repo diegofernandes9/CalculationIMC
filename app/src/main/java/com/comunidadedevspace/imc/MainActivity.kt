@@ -14,13 +14,11 @@ class MainActivity : AppCompatActivity() {
         val edtAltura = findViewById<TextInputEditText>(R.id.edt_altura)
         val btnCalcular = findViewById<Button>(R.id.btn_calcular)
 
-
-
-
         btnCalcular.setOnClickListener {
             val peso = edtPeso.text
             val altura = edtAltura.text
             println("Diego acao do botao " + altura)
+
         }
 
 
